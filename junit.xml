@@ -1,0 +1,74 @@
+<testsuites name="jest tests" tests="4" failures="4" time="15.201">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2020-08-07T23:40:42" time="15.201" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.027">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div class=&quot;total-matches&quot; data-testid=&quot;total-matches&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at Object.&lt;anonymous&gt; (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/src/App.test.js:18:42)
+    at Object.asyncFn (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="4.755">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div class=&quot;total-matches&quot; data-testid=&quot;total-matches&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at /Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/src/App.test.js:32:44
+    at runExpectation (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="4.772">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div data-testid=&quot;no-result&quot; class=&quot;slide-up-fade-in no-result&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at /Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/src/App.test.js:54:40
+    at runExpectation (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="4.813">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div data-testid=&quot;no-result&quot; class=&quot;slide-up-fade-in no-result&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at /Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/src/App.test.js:72:40
+    at runExpectation (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/Volumes/Janeth/react-projects/76386420-06c4-4bb9-9a18-a258383d664f/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
